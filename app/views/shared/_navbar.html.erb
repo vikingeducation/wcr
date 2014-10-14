@@ -1,10 +1,11 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="navbar-content-wrapper container">
     <div class="navbar-header">
-      <div class="nav-image">
-      	<%= image_tag("CritiCode.png", :alt => "Get your code reviewed by a pro!", :class => "logo")%>
-      </div>
+    	<%= link_to root_path, class: "navbar-brand"  do  %>
+	      <div class="nav-image">
+	      	<%= image_tag("CritiCode.png", :alt => "Get your code reviewed by a pro!", :class => "logo")%>
+      	</div>
+    	<% end %>
     </div>
-    <%= link_to "", root_path, class: "navbar-brand" %>
   </div>
 </nav>
