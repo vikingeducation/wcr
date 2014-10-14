@@ -1,0 +1,9 @@
+<div class="apply-form">
+  <%= simple_form_for @inquiry do |f| %>
+    <div class="input required">
+      <%= show_inline_error(@inquiry, :email) %>
+      <%= f.input :email, :placeholder => "Your Email", :label => false %>
+    </div>
+    <input type="submit" class="button input-button" value="Let me know!">
+  <% end %>
+</div>

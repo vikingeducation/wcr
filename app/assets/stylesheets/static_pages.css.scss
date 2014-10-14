@@ -1,0 +1,47 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.nav-image {
+	padding:10px;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+.footer-logo {
+	float: right;
+	padding-right:30px;
+}
+
+.sideline-image {
+	width:100%;
+	height:auto;
+}
+
+.mc_embed_signup{ 
+	margin: 20px;
+	font:14px
+	Helvetica,Arial,sans-serif;
+	color:#fff;
+	.mc_embed_signup_scroll{
+		.mc-field-group {
+			input{
+				padding: 5px;
+				margin: 0 10px 10px;
+			}
+		}	
+	}
+}
+
+.email-block{
+	text-align:center;
+	display: block;
+
+}
+
+.required {
+	border-radius:5px;
+	width: 240px;
+}
