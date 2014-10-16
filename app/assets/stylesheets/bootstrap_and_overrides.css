@@ -27,14 +27,6 @@ h6 {
     font-weight: 400;
 }
 
-.intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    text-align: center;
-    color: #f8f8f8;
-    background: url(trautman.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 .intro-header-mask{
 	background-color: rgba(12,10,83,0.3);
 	height:100%;
@@ -113,13 +105,6 @@ h6 {
     float: left;
     width: 200px;
     border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(hands_banner.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .banner h2 {

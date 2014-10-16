@@ -35,6 +35,22 @@
 	}
 }
 
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    color: #f8f8f8;
+    background: image-url("trautman.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: image-url("hands_banner.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
 .email-block{
 	text-align:center;
 	display: block;
