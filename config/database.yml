@@ -21,7 +21,8 @@ test:
   database: db/test.sqlite3
 
 production:
-	adapter: postgresql
+  adapter: postgresql
   encoding: unicode
-  database: wcr_production
+  database: db/production
   pool: 5
+  timeout: 5000
